@@ -47,11 +47,15 @@ function Widget() {
   }, [components.length]);
 
   return (
-    <div className="widget-container">
-      {components[currentIndex]}
-      <div className="progress-bar-container">
-        <div className="progress-bar" style={{ width: `${progress}%` }}></div>
-      </div>
+    <div className="wrapper-no-remove">
+        <div className="widget-no-remove scrollbar-no-remove">
+            <div className="widget-container">
+                {components[currentIndex]}
+                <div className="progress-bar-container">
+                    <div className="progress-bar" style={{ width: `${progress}%` }}></div>
+                </div>
+            </div>
+        </div>
     </div>
   );
 }

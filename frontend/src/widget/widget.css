@@ -1,8 +1,18 @@
 /* Put your CSS styles here. */
+.component-title {
+    text-align: center; /* Center the text */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: white; /* Text color */
+    position: absolute; /* Position it relative to the parent */
+    bottom: 0; /* Position it at the bottom */
+    width: 100%; /* Full width */
+    padding: 8px 0; /* Padding for better visibility */
+}
+
 .widget-container {
     position: relative;
-    width: 300px;
-    height: 200px;
+    width: 100%;
+    height: 100%;
     border: 1px solid #ccc;
     overflow: hidden;
 }
