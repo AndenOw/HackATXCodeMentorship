@@ -21,6 +21,18 @@ db.serialize(() => {
             'https://www.linkedin.com/in/julian-edwards/',
             'full-stack web developer',
         ],
+        [
+            'anden',
+            'owens',
+            'https://www.linkedin.com/in/julian-edwards/',
+            'full-stack web developer',
+        ],
+        [
+            'sharath',
+            'raini',
+            'https://www.linkedin.com/in/julian-edwards/',
+            'full-stack web developer',
+        ],
     ];
     for (let attendee of attendees) {
         stmt.run(attendee);
