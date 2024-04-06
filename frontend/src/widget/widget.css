@@ -1,4 +1,21 @@
 /* Put your CSS styles here. */
+.wrapper-no-remove {
+    width: 100%; /* Ensures the wrapper fills its parent */
+    height: 100%; /* Ensures the wrapper fills its parent */
+}
+
+.widget-no-remove {
+    width: 100%; /* Ensures the widget fills its parent */
+    height: 100%; /* Ensures the widget fills its parent */
+    overflow: hidden; /* Hides any overflow */
+}
+
+.widget-container {
+    position: relative;
+    width: 100%; /* Fills the widget-no-remove container */
+    height: 100%; /* Fills the widget-no-remove container */
+}
+
 .component-title {
     text-align: center; /* Center the text */
     background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
@@ -7,14 +24,6 @@
     bottom: 0; /* Position it at the bottom */
     width: 100%; /* Full width */
     padding: 8px 0; /* Padding for better visibility */
-}
-
-.widget-container {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    border: 1px solid #ccc;
-    overflow: hidden;
 }
 
 .progress-bar-container {
