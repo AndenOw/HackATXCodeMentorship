@@ -52,7 +52,7 @@ function Widget() {
             <div className="widget-container">
                 {components[currentIndex]}
                 <div className="progress-bar-container">
-                    <div className="progress-bar" style={{ width: `${progress}%` }}></div>
+                    <div className="progress-bar" style={{ width: `${progress}%`, transition: 'width 1s ease-in-out' }}></div>
                 </div>
             </div>
         </div>
