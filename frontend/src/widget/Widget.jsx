@@ -3,26 +3,26 @@ import './widget.css';
 
 // Sample Components
 const Component1 = () => (
-  <div>
-    <img src="../images/GithubRepo.png" alt="Component 1" />
+  <div className="component">
+    <img src="../images/GithubRepo.png" alt="Component 1" className="component-image" />
     <div className="component-title">Github Repo</div>
   </div>
 );
 const Component2 = () => (
-  <div>
-    <img src="../images/MeetupGroup.png" alt="Component 2" />
+  <div className="component">
+    <img src="../images/MeetupGroup.png" alt="Component 2" className="component-image" />
     <div className="component-title">Meet up Group</div>
   </div>
 );
 const Component3 = () => (
-  <div>
-    <img src="../images/RickRoll.png" alt="Component 3" />
+  <div className="component">
+    <img src="../images/RickRoll.png" alt="Component 3" className="component-image" />
     <div className="component-title">Must watch React resource to become a React Guru</div>
   </div>
 );
 const Component4 = () => (
-  <div>
-    <img src="../images/ReactResources.png" alt="Component 3" />
+  <div className="component">
+    <img src="../images/ReactResources.png" alt="Component 3" className="component-image" />
     <div className="component-title">React resource</div>
   </div>
 );

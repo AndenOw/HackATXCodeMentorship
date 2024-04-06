@@ -16,6 +16,29 @@
     height: 100%; /* Fills the widget-no-remove container */
 }
 
+.component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%; /* Fills the widget container */
+    height: 100%; /* Fills the widget container */
+    padding: 0px;
+}
+
+.component-image {
+    width: 300px; /* Ensure image doesn't exceed container width */
+    height: 300px; /* Ensure image doesn't exceed container height */
+    display: block; /* Remove any default inline styling */
+    margin: auto; /* Center the image horizontally */
+    position: absolute; /* Position the image absolutely for centering */
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
 .component-title {
     text-align: center; /* Center the text */
     background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
@@ -38,4 +61,4 @@
 .progress-bar {
     height: 100%;
     background-color: #007bff;
-}  
+}
